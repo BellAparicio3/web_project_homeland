@@ -1,0 +1,8 @@
+/* Se importan todos los archivos externos de css */
+
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+@import url(../blocks/container.css);
+@import url(../blocks/header.css);
+@import url(../blocks/nav.css);
+@import url(../blocks/section.css);

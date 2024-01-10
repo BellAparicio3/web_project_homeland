@@ -1,0 +1,29 @@
+.container {
+  max-height: 1060px;
+  display: grid;
+  grid-template: 0.1fr 0.2fr 0.6fr 0.2fr/1fr;
+  grid-template-areas:
+    "nav"
+    "header"
+    "main"
+    "footer";
+}
+.span__enter {
+  display: block;
+}
+
+@media screen and (max-width: 320px) and (min-width: 768px) {
+  .container {
+    background-color: #2a2c2f;
+    color: #ffffff;
+    font-family: Inter, sans-serif;
+
+    display: grid;
+    grid-template: repeat(4, 0.2fr) / 1fr;
+    grid-template-areas:
+      "nav"
+      "header"
+      "main"
+      "footer";
+  }
+}

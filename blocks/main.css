@@ -1,0 +1,10 @@
+.main {
+  display: grid;
+  grid-template: repeat(5, 1fr) / repeat(3, 1fr);
+  grid-template-areas:
+    "intro intro intro"
+    "photo-grid photo-grid photo-grid"
+    "places places places"
+    "cover cover cover";
+  grid-area: main;
+}
